@@ -1,0 +1,43 @@
+html, 
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.page-container {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	height: auto\9; /* IE 8 Hack */
+	min-height: 100%;
+	position: relative;
+}
+
+.page-content {
+	display: table-row;
+	height: 100%;
+}
+
+.header,
+.footer {
+	display: table-row;
+	height: 1px;
+}
+
+.vertical-center {
+	height: 100%;
+}
+
+.vertical-center .page-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/* Only for visualization purposes - Should be removed */
+
+.page-content {background-color: cyan;}
+.header {background-color: green}
+.footer {background-color: yellow}

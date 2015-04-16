@@ -35,9 +35,3 @@ body {
 	vertical-align: middle;
 }
 
-
-/* Only for visualization purposes - Should be removed */
-
-.page-content {background-color: cyan;}
-.header {background-color: green}
-.footer {background-color: yellow}
